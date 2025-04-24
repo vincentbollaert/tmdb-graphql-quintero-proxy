@@ -1,0 +1,24 @@
+{
+  "name": "tmdb-graphql-node-proxy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.1"
+  },
+  "description": "Node proxy the tmdb graphql wrapper",
+  "main": "src/main.js",
+  "author": "Vincent Bollaert",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "https": "^1.0.0"
+  }
+}
